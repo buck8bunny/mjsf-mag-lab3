@@ -1,6 +1,6 @@
+// services/types.ts
 export interface Readable<T> {
-    get(params: any): Promise<T[]>;
-
+    get(params?: any): Promise<T[]>;
     getById(id: number): Promise<T>;
 }
 
@@ -13,5 +13,5 @@ export interface Updateable<T> {
 }
 
 export interface Deleteable<T> {
-    delete(id: number): Promise<T>;
+    delete(id: number): Promise<void>;
 }

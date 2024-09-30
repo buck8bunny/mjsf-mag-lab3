@@ -1,14 +1,39 @@
-# Вступ
+# lab3-ex
 
-Frontend фреймворки є критично важливими інструментами для створення сучасних веб-додатків. 
-Вони забезпечують розробників потужними інструментами для побудови динамічних, масштабованих, зручних у використанні
-інтерфейсів користувача (UI). З розвитком технологій ці фреймворки стали важливою частиною індустрії веб-розробки, 
-і їх роль постійно зростає.
+This template should help get you started developing with Vue 3 in Vite.
 
-**Vue.js** - прогресивним фреймворком, який легко інтегрується в існуючі проекти і може використовуватися як для невеликих частин веб-сторінок, так і для створення повноцінних додатків. Відомий за простоту у вивченні та широкі можливості завдяки реактивності та інтуїтивному синтаксису.
+## Recommended IDE Setup
 
-# Лабораторні роботи
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-1. [Лабораторна робота №1: Розгортання простого Vue.js додатку з використанням Docker](/labs/lab1.md)
-2. [Лабораторна робота №2: Створення компонентів з використанням Vue 3 та Tailwind CSS](/labs/lab2.md)
-3. [Лабораторна робота №3: Реалізація паттерну репозиторій](/labs/lab3.md)
+## Type Support for `.vue` Imports in TS
+
+TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+
+## Customize configuration
+
+See [Vite Configuration Reference](https://vitejs.dev/config/).
+
+## Project Setup
+
+```sh
+npm install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### Type-Check, Compile and Minify for Production
+
+```sh
+npm run build
+```
+
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
+npm run lint
+```
